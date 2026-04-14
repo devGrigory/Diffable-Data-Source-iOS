@@ -1,2 +1,26 @@
-xcuserdata/
+# Xcode
+build/
+DerivedData/
+*.hmap
+*.ipa
 *.xcuserstate
+project.xcworkspace/xcuserdata/
+*.xcuserdatad
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CocoaPods & Carthage
+Pods/
+Carthage/Checkouts/
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
